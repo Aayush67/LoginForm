@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div align=\"center\">Welcome To My First Angular Deployment</div>\n<div class=\"container\">\n<form action=\"/action_page.php\">\n  <div class=\"form-group\">\n    <label for=\"email\">Email address:</label>\n    <input type=\"email\" class=\"form-control\" id=\"email\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"pwd\">Password:</label>\n    <input type=\"password\" class=\"form-control\" id=\"pwd\">\n  </div>\n  <div class=\"form-group form-check\">\n    <label class=\"form-check-label\">\n      <input class=\"form-check-input\" type=\"checkbox\"> Remember me\n    </label>\n  </div>\n  <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n</form>\n</div>"
+module.exports = "<div align=\"center\">Welcome To My First Angular Deployment</div>\n<div class=\"container\">\n<form action=\"/action_page.php\">\n  <div class=\"form-group\">\n    <label for=\"email\">Email address:</label>\n    <input type=\"email\" class=\"form-control\" id=\"email\">\n  </div>\n  <div class=\"form-group\">\n    <label for=\"pwd\">Password:</label>\n    <input type=\"password\" class=\"form-control\" id=\"pwd\">\n  </div>\n  <div class=\"form-group form-check\">\n    <label class=\"form-check-label\">\n      <input class=\"form-check-input\" type=\"checkbox\"> Remember me\n    </label>\n  </div>\n  <button type=\"submit\" class=\"btn btn-primary\">Login</button>\n</form>\n</div>"
 
 /***/ }),
 
