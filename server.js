@@ -4,7 +4,7 @@ app = express();
 var path = require('path');
 var http = require('http');
 var fs = require('fs');
-var port=4200;
+var port=process.env.PORT || 4200;
 // var port = process.env.PORT || 4200; // used to create, sign, and verify tokens
 app.use(express.static(path.join(__dirname, 'LoginForm')));
 
@@ -30,5 +30,5 @@ app.get('/*', function(req, res) {
 
 // start the server 
 
-app.listen(4200, '0.0.0.0');
+app.listen(port, '0.0.0.0');
 console.log('http://localhost:' + port);
